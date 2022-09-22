@@ -150,3 +150,30 @@ h2 {
   padding-left: 822px;
   padding-bottom: 80px;
 }
+
+.container-four {
+  display: flex;
+  justify-content: center;
+}
+
+.action-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1000px;
+  height: 130px;
+  margin: 100px;
+  color: white;
+  background-color: #3882F6;
+  border-radius: 10px;
+}
+
+.call-title {
+  font-size: 24px;
+}
+
+button.bottom-button {
+  border: 2px solid white;
+  padding: 7px 30px;
+  border-radius: 6px;
+}
