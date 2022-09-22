@@ -91,9 +91,9 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 60px;
+  gap: 70px;
   padding-top: 20px;
-  padding-bottom: 80px;
+  padding-bottom: 90px;
 }
 
 .info-header, .text {
@@ -125,4 +125,28 @@ h2 {
 
 .text {
   text-align: center;
+}
+
+.container-three {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+}
+
+.quote {
+  width: 830px;
+  padding-top: 100px;
+  padding-left: 280px;
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.author {
+  font-size: 24px;
+  color: #1F2937;
+  font-weight: 550;
+  padding-left: 822px;
+  padding-bottom: 80px;
 }
